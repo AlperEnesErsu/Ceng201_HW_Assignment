@@ -48,9 +48,12 @@ public class DischargeStack {
             System.out.println("-----List-----");
             while (current!=null){
                 System.out.println(current.data);
-                current = current.next; //Print the list when current.next = null
+                current = current.next; 
+                return poppedRecord;
+                //Print the list when current.next = null
             }
             System.out.println("---------------");
         }
     }
 }
+
