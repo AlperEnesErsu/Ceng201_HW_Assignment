@@ -28,6 +28,8 @@ public class DischargeStack {
         }else{
             DischargeRecord poppedRecord = top.data;
             top = top.next; //Move top pointer to the next node
+            System.out.println("Treatment request processed and removed from the queue: " + poppedRecord);
+            return poppedRecord;
         }
         return null;
     }
@@ -56,4 +58,5 @@ public class DischargeStack {
         }
     }
 }
+
 
