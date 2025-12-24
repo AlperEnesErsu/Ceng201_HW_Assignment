@@ -19,9 +19,9 @@ This project is a **Hospital Management System** developed as part of the **CENG
 * `TreatmentQueue.java` -> Custom Queue implementation with **Priority Support**.
 * `DischargeStack.java` -> Custom Stack implementation.
 * **Data Classes:** `Patient.java`, `TreatmentRequest.java`, `DischargeRecord.java`.
-
+* `Analysis Questions` -> Contains some explanations necessary for a better understanding of the project.
 ## 👤 Author
 
 **Alper Enes Ersü**
 * **Student ID:** 230444040
-* **Course:** CENG 201 - Data Structures
+* **Course Code:** CENG 201 - Data Structures
